@@ -1,35 +1,56 @@
-body{
+body {
     background-color: rgb(177, 214, 246);
 }
 
-.title{
-    color: dodgerblue;
+.title {
+    color: white;
 }
 
-.login-page{
-    background-color: #f2f2f2;
+.login-page {
+    background: linear-gradient(to bottom, dodgerblue 10%, #f2f2f2 40%); /* Split the div vertically with two colors */
     padding: 5%;
     width: 30%;
     margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 }
 
-input[type="email"],input[type="password"]{
+.first-section {
+    /* background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+}
+
+.secound-section {
+    flex: 1;
+    padding: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
 }
-.button-section{
+
+.button-section {
     display: flex;
     justify-content: space-between;
 }
 
-.login-btn{
+.login-btn {
     color: white;
     padding: 14px;
     border: none;
     background-color: dodgerblue;
 }
 
-#forgot-password{
+#forgot-password {
     color: dodgerblue;
 }
