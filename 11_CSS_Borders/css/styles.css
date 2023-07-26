@@ -1,0 +1,17 @@
+.title{
+    background-color: black;
+    color: #fff;
+    padding: 65px;
+    text-align: center;
+}
+
+
+.box{
+    padding: 13px;
+    margin: 20px;
+    /* border: 1px solid red; */
+    border-left: 1px solid green;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid orange;
+    border-top: 8px solid black;
+}

@@ -1,0 +1,21 @@
+.title{
+    background-color: black;
+    color: #fff;
+    padding: 65px;
+    text-align: center;
+}
+
+
+ol{
+    /* background-color: black; */
+}
+
+li{
+    padding: 10px;
+    /* background-color: black; */
+    margin: 12px;
+    background-color: #f2f2f2;
+    border-left: 5px solid black;
+    list-style-type: none;
+
+}
