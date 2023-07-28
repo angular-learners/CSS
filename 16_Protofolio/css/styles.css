@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./../images/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #2C3032;
+    padding: 20px;
+    opacity: 0.6;
+}
+
+i{
+    color: #fff;
+}
+
+i:hover{
+    color: #28AE60;
+    cursor: pointer;
+}
+.icon{
+    margin-left: 10px;
+}
+
+.email ,.phone{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: #fff;
+    display: inline;
+}
+.secound-navbar{
+    margin-top: 20px;
+
+}
+.navbar2-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    margin-left: 20px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+.quote-btn{
+    background-color: #28AE60;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    padding: 18px;
+    border-radius: 4px;
+}
