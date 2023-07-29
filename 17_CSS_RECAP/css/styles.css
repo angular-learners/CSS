@@ -1,0 +1,48 @@
+body{
+    background-color: #F1F2F7;
+}
+
+
+li{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    border-left: 8px solid red;
+    margin: 1px;
+    text-align: right;
+}
+ .box-container{
+    display: flex;
+    justify-content: center;
+ }
+
+.box{
+    background: #fff;
+    padding: 10px;
+    margin: 6px;
+    width: 15%;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 1px 2px grey;
+    border-radius: 12px;
+    height: 146px;
+}
+
+.box1{
+  background-color: red;
+}
+
+.box4{
+    background-color: greenyellow;
+  }
+
+  .images-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .image{
+    margin: 2px;
+  }
